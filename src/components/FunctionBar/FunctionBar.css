@@ -1,0 +1,91 @@
+.userpage-top-conatiner-utility {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 49px;
+}
+.userpage-top-conatiner-utility h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  color: #212121;
+}
+.userpage-search-filter-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 10px;
+  height: 49px;
+  width: 669px;
+}
+.userpage-search-container {
+  width: 190px;
+  background: #ffffff;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 20px;
+  gap: 2px;
+}
+.userpage-search-container :hover {
+  cursor: pointer;
+}
+.userpage-search-container input {
+  height: 35px;
+  width: 160px;
+  border: none;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #949494;
+}
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+.userpage-filter-container {
+  width: 10vw;
+  background: #ffffff;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  object-fit: contain;
+  height: 44px;
+  justify-content: center;
+}
+.userpage-filter-container:hover {
+  cursor: pointer;
+}
+.userpage-filter-container h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #949494;
+}
+.create-user-button {
+  width: 200px;
+  padding: 16px 20px;
+  background: #8a8a8a;
+  border-radius: 4px;
+  border: 1px solid #dbdbdb;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+.create-user-button:hover {
+  cursor: pointer;
+}
+.create-user-button h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #ffffff;
+}
